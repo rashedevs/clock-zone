@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "http://placehold.it/32x32",
+        "name": "Humphrey Shaffer",
+        "rating": 5,
+        "review": "Ipsum commodo duis ullamco incididunt mollit amet."
+    },
+    {
+        "id": "2",
+        "img": "http://placehold.it/32x32",
+        "name": "Merle May",
+        "rating": 4.5,
+        "review": "Anim dolor officia proident tempor commodo nostrud ipsum minim sint."
+    },
+    {
+        "id": "3",
+        "img": "http://placehold.it/32x32",
+        "name": "Weiss Blair",
+        "rating": 4,
+        "review": "In aliqua in veniam et dolore deserunt mollit."
+    },
+    {
+        "id": "4",
+        "img": "http://placehold.it/32x32",
+        "name": "Selma Carroll",
+        "rating": 5,
+        "review": "Occaecat amet exercitation sunt do esse do magna minim ex deserunt nostrud sit."
+    },
+    {
+        "id": "5",
+        "img": "http://placehold.it/32x32",
+        "name": "Butler Russell",
+        "rating": 4.5,
+        "review": "Commodo commodo anim non Lorem in laborum proident cupidatat."
+    },
+    {
+        "id": "6",
+        "img": "http://placehold.it/32x32",
+        "name": "Saundra Mann",
+        "rating": 4,
+        "review": "Eu aliquip et Lorem adipisicing."
+    }
+]
