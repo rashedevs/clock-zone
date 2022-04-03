@@ -1,0 +1,13 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.demo-btn {
+    padding: 5px 10px;
+}
+
+.home-img img {
+    background-color: none;
+    width: 100%;
+}
