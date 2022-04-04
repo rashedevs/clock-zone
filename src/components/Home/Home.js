@@ -22,14 +22,14 @@ const Home = () => {
                     <button className='demo-btn'>LIVE DEMO</button>
                 </div>
                 <div className="home-img">
-                    <img src="https://img.freepik.com/free-psd/realistic-smart-watch-mockup_165789-534.jpg?t=st=1649020791~exp=1649021391~hmac=8e01076066b6b06eb16ba1cae9053e3dffe732bcc811b9945a606f32eb88af75&w=740" alt="" />
+                    <img src="https://img.freepik.com/free-psd/realistic-smart-watch-mockup_165789-534.jpg?t=st=1649020791~exp=1649021391~hmac=8e01076066b6b06eb16ba1cae9053e3dffe732bcc811b9945a606f32eb88af75&w=740" alt="watch-img" />
                 </div>
             </div>
             <div>
                 <h2 className='review-title'>Customer Reviews (3)</h2>
                 <div className="review-container">
                     {
-                        reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
+                        reviews.slice(2, 5).map(review => <Review key={review.id} review={review}></Review>)
                     }
                 </div>
                 <button onClick={handleReviews} className='see-all-btn'>SEE ALL REVIEWS</button>

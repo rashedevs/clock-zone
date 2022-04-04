@@ -1,0 +1,11 @@
+.all-reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 80px;
+    padding: 10px 10px 20px 30px;
+}
+
+.reviews-title {
+    color: crimson;
+}

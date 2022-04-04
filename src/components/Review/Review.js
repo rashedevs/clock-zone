@@ -3,12 +3,12 @@ import './Review.css'
 const Review = (props) => {
     const { name, img, rating, review } = props.review
     return (
-        <div className='product'>
-            <img src={img} alt="" />
-            <div className='product-info'>
-                <p className='product-name'>{name}</p>
+        <div className='review'>
+            <img src={img} alt="reviewer img" />
+            <div className='details'>
+                <p className='reviewer-name'>{name}</p>
                 <p><small>"{review}"</small></p>
-                <p><small>Ratings: {rating} stars</small></p>
+                <p className='rating'><small>Rating: {rating} stars</small></p>
             </div>
         </div>
     );

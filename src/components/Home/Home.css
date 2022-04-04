@@ -23,6 +23,7 @@
 
 .see-all-btn {
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .demo-btn,
@@ -36,6 +37,7 @@
 }
 
 .home-img img {
+    height: 350px;
     border: none;
     border-radius: 150px;
     width: 100%;
@@ -46,7 +48,7 @@
 }
 
 .review-container {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
 }
