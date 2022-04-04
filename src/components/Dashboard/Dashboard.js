@@ -16,15 +16,15 @@ const Dashboard = () => {
         <div className='chart-container'>
             <div>
                 <MyLineChart data={data}></MyLineChart>
-                <p>Line Chart</p>
+                <h3>Monthly Sell</h3>
             </div>
             <div>
                 <MyAreaChart data={data}></MyAreaChart>
-                <p>Area Chart</p>
+                <h3>Sell VS Revenue</h3>
             </div>
             <div>
                 <MyBarChart data={data}></MyBarChart>
-                <p>Bar Chart</p>
+                <h3>Sell-Revenue-Investment</h3>
             </div>
         </div>
     );
