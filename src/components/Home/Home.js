@@ -9,12 +9,12 @@ const Home = () => {
         navigate(path)
     }
     return (
-        <div>
+        <div className='container'>
             <div className='home-container'>
                 <div className="home-title">
                     <h1>CLOCK ZONE</h1>
-                    <h2>FIND YOUR DESIRED WATCHES HERE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta porro voluptatum repudiandae. Iusto provident illum facere, ab neque quae, quam qui molestiae quod corporis, maiores debitis magni voluptatem rem libero mollitia.</p>
+                    <h2>FIND YOUR DESIRED WATCH</h2>
+                    <p>Clock Zone is unveiling its latest collections, Watches that shine the light of optimism and innovation on the watchmaking world. In its perpetual quest for excellence, the brand constantly enhances the aesthetics and technologies of its emblematic timepieces. They are an invitation to push boundaries, to reach ever higher.</p>
                     <button className='demo-btn'>LIVE DEMO</button>
                 </div>
                 <div className="home-img">
@@ -23,7 +23,7 @@ const Home = () => {
             </div>
             <div>
                 <h2>Customer Reviews (3)</h2>
-                <button onClick={handleReviews}>See All Reviews</button>
+                <button onClick={handleReviews} className='see-all-btn'>See All Reviews</button>
             </div>
         </div>
     );
