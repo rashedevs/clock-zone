@@ -2,37 +2,37 @@
     {
         "month": "Mar",
         "investment": 100000,
-        "sell": 241,
+        "sell": 24100,
         "revenue": 10401
     },
     {
         "month": "Apr",
-        "investment": 200000,
-        "sell": 423,
+        "investment": 175000,
+        "sell": 42300,
         "revenue": 24500
     },
     {
         "month": "May",
-        "investment": 500000,
-        "sell": 726,
+        "investment": 150000,
+        "sell": 7260,
         "revenue": 67010
     },
     {
         "month": "Jun",
-        "investment": 500000,
-        "sell": 529,
+        "investment": 125000,
+        "sell": 52900,
         "revenue": 40405
     },
     {
         "month": "Jul",
-        "investment": 600000,
-        "sell": 601,
+        "investment": 1366000,
+        "sell": 16010,
         "revenue": 50900
     },
     {
         "month": "Aug",
-        "investment": 700000,
-        "sell": 670,
+        "investment": 185000,
+        "sell": 36000,
         "revenue": 61000
     }
 ]
