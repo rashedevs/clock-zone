@@ -6,7 +6,7 @@ const Blogs = () => {
         <div>
             <div className='blogs-container'>
                 <div className='blog'>
-                    <h3>1. What is the purpose of context-api?</h3>
+                    <h3>1. What is context-api?</h3>
                     <p>The context api is a react structure that enables you to change particular information and assists in fixing prop-drilling from all levels of your utility. The react context api is a manner for a react app to successfully produce global variables that may be exceeded around. This is the alternative to "prop drilling" or transferring props from grandparent to infant to figure, and so on. Context-api is also touted as an simpler, lighter method to nation control using redux. Context api is a (sort of) new feature delivered in model 16.3 of react that lets in one to share state across the complete app gently and easily.</p>
                 </div>
                 <div className='blog'>
