@@ -33,5 +33,11 @@
 }
 
 .rating {
+    font-weight: 500;
+    color: orangered;
+}
+
+.font-icon {
+    font-weight: 600;
     color: red;
 }

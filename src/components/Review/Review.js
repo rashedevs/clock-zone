@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-regular-svg-icons';
 import React from 'react';
 import './Review.css'
 const Review = (props) => {
@@ -8,7 +10,7 @@ const Review = (props) => {
             <div className='details'>
                 <p className='reviewer-name'>{name}</p>
                 <p>{review}</p>
-                <p className='rating'>Rating: {rating} stars</p>
+                <p className='rating'>Rating: {rating} <FontAwesomeIcon className='font-icon' icon={faStar} /></p>
             </div>
         </div>
     );
