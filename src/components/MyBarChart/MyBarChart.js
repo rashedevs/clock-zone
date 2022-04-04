@@ -24,6 +24,7 @@ const MyBarChart = (props) => {
                 <Legend />
                 <Bar dataKey="sell" fill="#8884d8" />
                 <Bar dataKey="revenue" fill="#82ca9d" />
+                <Bar dataKey="investment" fill="#2B547E" />
             </BarChart>
         </div>
     );

@@ -27,12 +27,21 @@
     margin-bottom: 10px;
 }
 
+.see-all-btn:hover {
+    background-color: chartreuse;
+}
+
 .demo-btn {
     margin-top: 20px;
 }
 
+.demo-btn:hover {
+    background-color: chartreuse;
+}
+
 .demo-btn,
 .see-all-btn {
+    font-weight: 600;
     border: none;
     border-radius: 5px;
     background-color: orange;

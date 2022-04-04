@@ -6,5 +6,6 @@
 }
 
 .chart-container p {
+    font-weight: 600;
     color: blue;
 }
