@@ -29,7 +29,7 @@ const Home = () => {
                 <h2 className='review-title'>Customer Reviews (3)</h2>
                 <div className="review-container">
                     {
-                        reviews.slice(2, 5).map(review => <Review key={review.id} review={review}></Review>)
+                        reviews.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
                     }
                 </div>
                 <button onClick={handleReviews} className='see-all-btn'>SEE ALL REVIEWS</button>

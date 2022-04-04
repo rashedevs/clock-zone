@@ -2,6 +2,15 @@
     padding: 0px 50px;
 }
 
-.blog-title {
-    color: crimson;
+.blog {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(205, 231, 253);
+}
+
+.blog h3 {
+    color: orangered;
 }
