@@ -5,7 +5,6 @@ import './Header.css'
 const Header = () => {
     return (
         <nav className='header'>
-
             <CustomLink to='/home'>HOME</CustomLink>
             <CustomLink to='/reviews'>REVIEWS</CustomLink>
             <CustomLink to='/dashboard'>DASHBOARD</CustomLink>

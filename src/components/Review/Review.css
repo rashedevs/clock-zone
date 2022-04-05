@@ -17,10 +17,15 @@
     color: red;
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 25px;
     margin-top: 7px;
+}
+
+.message {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .details {
@@ -37,7 +42,14 @@
     color: orangered;
 }
 
-.font-icon {
-    font-weight: 600;
-    color: red;
+.star-icon {
+    margin-left: 10px;
+    color: orangered;
+}
+
+@media only screen and (max-width: 600px) {
+    .review {
+        margin-top: 20px;
+    }
+
 }

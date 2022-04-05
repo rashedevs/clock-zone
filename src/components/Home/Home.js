@@ -29,7 +29,7 @@ const Home = () => {
                     <img src="https://img.freepik.com/free-psd/realistic-smart-watch-mockup_165789-534.jpg?t=st=1649020791~exp=1649021391~hmac=8e01076066b6b06eb16ba1cae9053e3dffe732bcc811b9945a606f32eb88af75&w=740" alt="watch-img" />
                 </div>
             </div>
-            <div>
+            <div className='custom-reviews'>
                 <h1 className='review-title'>Customer Reviews</h1>
                 <div className="review-container">
                     {
